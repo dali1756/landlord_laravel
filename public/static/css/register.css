@@ -1,0 +1,51 @@
+/*!******************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/css/register.css ***!
+  \******************************************************************************************************************************************************/
+body{
+    padding-top:0;
+}
+#header{
+    position:unset;
+}
+.register{
+    background-color:#fff5ea;
+    border-radius:1em;
+    padding: 2em 1em;
+    margin-bottom: 3em;
+}
+#form1 input{
+    background-color:white;
+}
+#add-machine input{
+    margin-bottom: 1em;
+}
+#add-item{
+    position:absolute;
+    left: 7em;
+    top:-5px;
+    color:white;
+}
+
+.del-item{
+    position:absolute;
+    right:1em;
+    top:10px;
+    z-index:20;
+    color:white !important;
+}
+@media screen and (min-width: 577px) and (max-width:1199px){
+    .label-right{
+        text-align:right;
+    }
+}
+@media screen and (min-width: 992px){
+    #add-machine{
+        padding: 0 4rem;
+    }
+}
+@media screen and (min-width: 1920px){
+    .container-fluid{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}

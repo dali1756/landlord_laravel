@@ -1,0 +1,918 @@
+/* 文字區 */
+/* 字體 */
+.h1, .h2 ,.h3, .h4 , #menu,.div_column ,#file ,#text , .btn , .button ,
+.form-control,.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4,
+.wrapper h5,a,p,#loading-body2-btn,.back-font, .label-right, 
+.label-center,.label-left,.card-header h6,table tbody,
+.table>tbody>tr>th,.title,.table .thead-green th, #footer .copyright, span {
+    font-family:"微軟正黑體",-apple-system,BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol", "Font Awesome 5 Free";
+    color:#3366CC;
+ }
+.user:before, .lock:before {
+    font-family: "Font Awesome 5 Free";
+}
+.login.form.title{
+    font-family : Microsoft JhengHei;
+}
+
+/* 字大小 */
+.h1, h1, h1.h4,#banner h1,.btnfont-30{
+    font-size: 30px;
+}
+h1.title{
+    font-size: 72px !important;
+}
+h4,.card-header h6,.user:before, .lock:before,
+.text-orange,.login.form.title,.div_column,.btnfont-21, 
+.label-right, .label-center, .label-left, 
+input[type="checkbox"] + label,input[type="radio"] + label{
+    font-size: 21px;
+}
+
+#footer .copyright,.fz-18{
+    font-size: 18px;
+}
+.glyphicon{
+	font-size: 16px;
+}
+
+/* 字顏色 */
+#header nav a[href="#menu"],
+.csv-download a:hover{
+    color:#3366CC;
+}
+
+/* MENU color */
+#menu .close,
+#menu .close:hover,
+.nav-border, .nav-border a ,  .nav-link.active span{
+    color:#3366CC;
+}
+
+#menu > ul.links > li > a:not(.button),
+a:hover,a:focus{
+    text-decoration: none;
+    color:#3366CC;
+}
+#menu{
+    background:#FFFFFF;
+}
+.hr-style{
+    border-bottom: 2px solid #F0F7F7 ;
+    margin: 0;
+}
+
+
+.h1, h1, h1.h4,#banner h1,
+.user:before, .lock:before,
+/* 狀態正常專用 */
+.text_normal,.div_column,
+.label-right, .label-center, .label-left, 
+input[type="checkbox"] + label,input[type="radio"] + label{
+    color:#1a3366;
+}
+h1.title,.card-header h6,
+.btn:focus,.btn2:hover,#footer{
+    color:#FFFFFF;
+}
+.alert-orange, 
+.text-orange, .text-orange:focus,
+/* NG、使用中專用 */
+.text_in_use,.text_negative{
+    color: #FF8367;
+}
+
+.form-center,.btn:hover, .text-black{
+    color:black;
+}
+.text-gray{
+    color:#7C7B7B;
+}
+.text-lightgreen{
+    color:#24D354;
+}
+
+/*提示文字*/
+.alert-orange{
+    color: #FF8367;
+    background-color: #FFF4F1;
+    border-color: #FF8367;
+}
+.text-green{
+    color:#3366CC;
+    font-size:21px;
+}
+/*學生電力使用紀錄房號顯示*/
+.alert-green{
+    background-color: #F0F7F7;
+    border: 2px solid;
+    border-color: #3366CC;
+}
+/* 字粗 */
+h1, .h1, h1.h4, #banner h1, .h3, .h4,
+.text-orange, .text-green{
+    font-weight: bold;
+}
+h4, .label-right, .label-center, .label-left, 
+input[type="checkbox"] + label,input[type="radio"] + label{
+    font-weight: 600;
+}
+
+/* 對齊樣式*/
+.h3, .h4, h1.h3 ,span.h5,
+.icon-center,.nav-border,
+.nav-border a , .nav-link.active span,
+#footer,.login.form,.label-center{
+    text-align: center;
+}
+
+.label-left,.b-align{
+    text-align: left;
+}
+
+.label-right{
+    text-align: right;
+}
+/* 字效果 */
+h1.title{
+    text-shadow: 0 0 6px rgba(26,23,23,0.60);
+}
+
+
+
+/* 斷行方式 & 排版 */
+.inner2{
+    max-width: 80em;
+}
+.inner3{
+    max-width: 100em;
+    margin: 0 auto;
+}
+.b-align{
+    white-space: normal;
+}
+.h3, .h4, .mar-center2 {
+    margin: 0 auto;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mar-bot50{
+    margin-bottom: 50px;
+}
+.jumbotron-heading{
+    margin-bottom: 58px;
+}
+/*pd內距樣式*/
+.label-right{
+    padding: 15px 0 0;
+}
+.pd-10{
+    padding: 10px 0 ;
+}
+.pd-top25{
+    padding: 25px 0 0 0;
+}
+
+/*表格區  ================== */
+table {
+    white-space:nowrap;
+}
+.table .thead-green th {
+    background-color: #3366CC;
+    color:#F0F7F7;
+    font-size: 18px;
+    text-align: center;
+}
+table tbody tr:nth-child(2n + 1){
+    background-color:#F0F7F7;
+}
+
+table tbody {
+    font-size: 18px;
+    color:#1a3366;
+    font-weight: 600;
+}
+.table tbody tr {
+    font-size: 18px;
+    border-bottom: solid 2px #3366CC;
+}
+table .schedule-setting tr :nth-child(n) {
+    font-size: 18px;
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+.newlist{ 
+    white-space: normal;
+    word-break: keep-all;
+}
+/* .table>tbody>tr>th, */
+table .editgroup tr td:nth-child(1){
+    text-align: center;
+}
+.newlist tr td:nth-child(3),
+table .editgroup tr td:nth-child(n+2):nth-child(-n+7) {
+    text-align: left;
+}
+.test tr td:nth-child(2),
+.test tr td:nth-child(7){
+    white-space: normal;
+}
+
+/* ================================== BTN按鈕區 ================================== */
+/* 管理員登入、設定BTN */
+.button.alt, .button.alt2,
+.button.alt:hover, .button.alt2:hover{
+    background-color:#3366CC;
+    color:#FFFFFF;
+    font-weight: bolder;
+}
+
+.btn-loginfont, .btn-loginfont2{
+    font-size:30px;
+    color:#fff;
+    height: 80%;
+    background-color: #3366CC;
+    border-color: none;
+}
+.btn-loginfont2:hover{
+    color:black;
+}
+.btn-green{
+    color:#3366CC;
+    background-color:#F0F7F7;
+    border:3px solid #3366CC;
+    font-weight: bold;
+}
+.btn-green:hover {
+    border:3px solid #FF8367;
+    color:#FF8367;
+    background-color:#FFF;
+}
+/* BTN:確認新增/查詢匯出/確認更新 */
+.btn-green2{
+    font-size:30px;
+    color:#fff;
+    height: auto;
+    background-color: #3366CC;
+    
+}
+.btn-back a{
+    color:#FFBC00;
+}
+.btn-orange{
+    font-size:21px;
+    background: #FF8367;
+}
+.btn-orange span{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:21px;
+}
+.btn-y{
+    color: #FFFFFF;
+    font-size:21px;
+    font-weight: bold;
+    background: #3366CC;
+}
+.btn-y span{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size:21px;
+}
+
+/*返回BTN*/
+.back-font{
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+/* ==================================== 各頁特殊設定 ================================*/
+/* 共用：header、footer、menu */
+.wrapper{
+    padding-top: 3em;
+}
+
+/*右側管理員設定nav*/
+.mar-nav{
+    margin:-6px auto;
+}
+.dropdown-divider{
+    border-top: 2px solid #F0F7F7;
+}
+.dropdown-item:active, .dropdown-item:hover{
+    color: #2e2f37;
+    background-color:#ffffff;
+}
+#footer{
+    padding:10px  0em;
+    background: #3366CC;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 1;
+    height: 64px;
+    margin-bottom: 0vh;
+}
+#footer .copyright{
+    border-top:none;
+    color:unset;
+    padding: 15px 0;
+    margin: 0;
+}
+/* 新增loading */
+#waitloading{
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(123, 123, 123, 0.25);
+    z-index: 1005;
+}
+#waitloading [role="button"]{
+    position: sticky;
+    top:50%;
+    bottom:50%;
+    cursor: not-allowed;
+}
+
+/* 首頁 */
+/* BK設定 */
+#banner {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top 80px center;
+    background-attachment: fixed;
+    width: 100%;
+    opacity:1;
+    height:85vh;
+    background-image: url(/static/img/bk.jpg);
+}
+#banner_login {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top 80px center;
+    background-attachment: fixed;
+    width: 100%;
+    opacity:1;
+    height:85vh;
+    background-image: url(/static/img/bk2.jpg);
+}
+
+#login
+{position : absolute;
+top: 31vh;
+left: 47vw;
+width  : 460px;
+height : auto;
+margin: -200px 0 0 -170px;
+background : #fff;
+border-radius : 5px;}
+
+/* 登入視窗 */
+#adminlogin, #adminlogin2{
+    margin-top: 70px;
+}
+
+#identity, #identity2 {
+    display  : none;
+    position : absolute;
+    top: 31vh;
+    left: 47vw;
+    width  : 460px;
+    height : auto;
+    margin: -200px 0 0 -170px;
+    background : #fff;
+    border-radius : 5px;
+}
+
+@media screen and (max-width: 768px) and (min-width:576px){
+    #identity, #identity2 {
+        left: 42vw;
+    }
+}
+@media screen and (max-width: 575px){
+    #identity, #identity2 {
+        left: 9.5px;
+        max-width: 95vw;
+        height: auto;
+        margin: 0 auto;
+        top: 80px;
+    }
+}
+.login.form {
+	height      : 70px;
+	line-height : 70px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 20px auto 0px;
+}
+.user, .lock  {
+    position: relative;
+    display:inline-block;
+    margin:9px 0;
+  }
+.user:before, .lock:before {
+    font-weight: 900; 
+    content: "\f007";
+    position: absolute;
+    left: 7%;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+.lock:before {
+    content: "\f13e";
+}
+.div_column {
+    display:inline-block;
+    font-weight: bold;
+}
+.login.form.notice {
+	color: red;
+	height: 20px;
+	line-height: 20px;
+}
+/* 單筆新增 */
+.formstyle div.form-group.row{
+    margin-left:auto;
+    margin-right:auto;
+}
+/*名單匯入樣式*/
+#file::after{
+    background-color: #fff;
+    /* content: ' '; */
+}
+.card{
+    border: 2px solid #3366CC;
+}
+.card-green{
+    background-color: #F0F7F7;
+    border:2px solid #3366CC;
+}
+.card-green-input{
+    border:2px solid #3366CC;
+    height: 46px;
+}
+/* .csv-download{
+    text-decoration: underline;
+} */
+/*系統使用現況*/
+.nowsystem ul li{
+    display: block;
+}
+/* .b-align{
+    white-space: normal;
+    text-align: left;
+} */
+.b-label{
+    background: #3366CC;
+   
+    color: #FFF;
+    padding: 4px;
+    border-radius: 3px;
+    margin: 0 15px 0px;
+    line-height: 2.25;
+}
+/* 模式切換 */
+.card-header{
+    background-color:#3366CC;
+}
+/* 收費&金額設定 */
+#surcharge{
+    padding: 0 5%;
+}
+/* 房客租屋中心*/
+#room_center{
+    line-height:2.5;
+}
+
+/* ================================套件樣式================================*/
+/*多選*/
+select.form-control[multiple], select.form-control[size]{
+    border: solid 1px #dee1e3;
+    background: rgba(144, 144, 144, 0.075);
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active{
+    border: solid 1px #dee1e3;
+    box-shadow: none;
+}
+
+/*bootstrap-select-選項預設提示字換色*/
+.bootstrap-select > .dropdown-toggle[title],
+.bootstrap-select > .dropdown-toggle[title]:hover,
+.bootstrap-select > .dropdown-toggle[title]:focus,
+.bootstrap-select > .dropdown-toggle[title]:active,
+.dropdown-menu>li>a, .btn-default {
+    color:#3366CC;
+    
+    font-size: 18px;
+    font-weight: 600;
+    border-color: #dee1e3;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.btn-default{
+    background-color: #e6e6e6;
+    background: rgba(144, 144, 144, 0.075);
+}
+/*下拉選單選項跑版*/
+.bootstrap-select .dropdown-toggle .filter-option {
+    padding: 10px 0;
+}
+/*下拉選單選項寬度*/
+.form-inline .bootstrap-select{
+    width: inherit;
+}
+/*多餘的倒三角透明*/
+.caret{
+	opacity: 0;
+}
+.select-mar,.label-mar{
+    margin-top: 40px;
+}
+/*調整input、select間距*/
+.select-mar2{ /*input vs select*/
+    margin-top: -10px;
+}
+.select-mar3{ /*select vs input*/
+    margin-top: 30px;
+}
+.select-mar4{ /*select vs select*/
+    margin-top: 23px;
+}
+/*input表單區*/
+.form-control:focus{
+    color:#3366CC;
+    border-color: #6699ff;
+    box-shadow: 0 0 0 0.2rem rgb(102 153 255 / 25%);
+    
+}
+input[type="text"],input[type="text"]:hover,input[type="text"]:focus,input[type="text"]:active,input[type="date"],input[type="month"],input[type="password"],select option,select,
+input[type="time"],input[type="number"]{
+    color:#3366CC;
+    
+    font-weight: 600;
+    font-size: 18px;
+}
+
+input[type="time"]:not([name^="chk"]),input[type="number"]{
+    text-align: center;
+}
+/*input placeholder修改*/
+.form-control::-webkit-input-placeholder {
+    color: #3366CC !important;
+}
+.form-control:-ms-input-placeholder {
+    color: #3366CC !important;
+}
+.form-control::-ms-input-placeholder {
+    color: #3366CC !important;
+}
+.form-control::placeholder {
+    color: #3366CC !important;
+}
+
+/*input placeholder focus修改*/
+.form-control:focus::-webkit-input-placeholder {
+    color: #a8a8a8 !important;
+}
+.form-control:focus:-ms-input-placeholder {
+    color: #a8a8a8!important;
+}
+.form-contro:focus::-ms-input-placeholder {
+    color: #a8a8a8 !important;
+  }
+.form-control:focus::placeholder {
+    color: #a8a8a8 !important;
+}
+
+/*input 尺寸修改*/
+input[type="text"], input[type="date"],input[type="date"], input[type="password"], input[type="email"], select ,select.form-control[size], 
+.time-height,input[type="number"],input[type="time"], input[type="tel"],input[type="search"]{
+    height: 3.5em;
+    font-weight: 800;
+}
+input[type="text"], input[type="date"],input[type="date"],input[type="password"], input[type="email"], input[type="tel"], select,textarea,
+input[type="number"],input[type="time"],input[type="search"]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: rgba(144, 144, 144, 0.075);
+    border-radius: 4px;
+    border: none;
+    border: solid 1px #dee1e3;
+    color: #3366CC;
+    display: block;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+input[type="time"]{
+    padding: .75rem 1em;
+}
+input[type="date"],input[type="date"]{
+    padding: .85rem .75rem;
+}
+/*被選選項樣式置中，部分瀏覽器不支援 text-align-last*/
+.text-lastcenter{
+    text-align: center;
+    text-align-last: center;
+}
+select.text-lastcenter{
+    font-size: 18px;
+    color:#3366CC;
+    
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 製作說明 */
+#memo{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#memo ul{list-style-type: decimal;}
+#memo ul li{color: #fb4d36;}
+/* 報表匯出 */
+.nav-tabs .nav-link{
+    background-color: #F0F7F7;
+    border: 2px solid #3366CC;
+    
+    border-bottom: none;
+}
+.nav-tabs[role="tablist"]{
+    border-bottom: none;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover{
+    background-color: #FFF;
+    border: 2px solid #3366CC;
+    
+    border-bottom: 3px solid #FFF;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
+	border-bottom: 0;
+}
+.nav-tabs .nav-link:focus,
+.nav>li>a:focus{
+    border-color: #3366CC;
+    background-color: #FFF;
+}
+hr.view{
+    margin-top: -0.1rem;
+    margin-bottom: 1rem;
+    border-top: 3px solid #3366CC;
+}
+/* 金額&費率 */
+.card-header .fz24{
+    font-size: 24px;
+}
+#paylist,#paylist p {
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+#paylist h6{
+    color:#3366CC;
+    
+    font-weight: bolder;
+    font-size: 20px;
+}
+.room-detail dt{
+    text-align: left;
+    margin-bottom: .5rem;
+}
+.room-detail dd{
+    text-align: right;
+}
+/* lightbox CSS */
+.fade{
+    opacity: 1;
+}
+/* alert樣式 */
+#alert-error p{
+    text-align: center;
+    color:#e74a3b !important;
+    font-size: 21px;
+    font-weight: 600;
+}
+button.close {
+    height: auto;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+button.close:focus{
+    outline: none;
+}
+.spinner-border{
+    width: 5rem;
+    height:5rem;
+}
+/* 電錶現況 */
+#now-meter h4,#now-meter span,#now-meter p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;   
+}
+#now-meter h5{
+    font-weight: 700;
+    margin: 0;
+}
+/* 分頁設定 */
+.page_ctrl{
+    display: flex;
+    justify-content: center; 
+    align-items: center;}
+.page_ctrl .pagination>.active>a {
+    background-color: #3366CC;
+    border-color: #3366CC;
+ }
+
+
+/* ==================================== RWD ==================================== */
+@media screen and (max-width:1199px){
+    .label-right,.label-left,input[type="checkbox"] + label,input[type="radio"] + label {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #banner {
+        background-position: top 20px center;
+    }
+}
+
+/* BK設定 */
+@media(max-width:980px){
+    #banner {
+        background-position:top 90px center;
+        max-width: 100%;
+        height:120vh;
+    }
+}
+
+/*名單匯入*/
+@media screen and (max-width: 991px){
+    .btn-mar{
+        margin-top:0px;
+    }
+    .btn-mar button{
+        margin-top: 15px;
+    }
+    .h-100{
+        height: auto !important;
+    }
+}
+
+@media (max-width: 768px){
+    .d-sm-inline-block {
+        display: none!important;
+    }
+    h1.title{
+        font-size: 60px !important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .inner6{
+        max-width: 85%;
+    }
+    .inner2{
+        max-width: 92%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    /*報表匯出邊框設定*/
+    .border-report{
+        border:unset;
+    }
+    .nav-tabs .nav-link.active{
+        background-color:#3366CC;
+        
+    }
+    .nav-tabs .nav-link:hover {
+        background-color:#3366CC;
+        
+        color:#FFF;
+    }
+    .nav-link.active span{
+        color: #FFF;
+    }
+    .mtb-1{
+        margin: 1rem 0;
+    }
+    .mb-1{
+        margin-bottom: 1rem !important;
+    }
+    .pd-0{
+        padding: 0;
+    }
+}
+
+/*手機版*/
+@media screen and (max-width: 575px){
+    .back-font{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left:5px;
+    }
+    .fa-chevron-circle-left:before{
+        font-size: 35px;
+    }
+    .login.form {
+        height: 90px;
+        line-height: inherit;
+    }
+    .user-pwd-width{
+        max-width: 300px;
+    }
+    #identity, #identity2 {
+        left: 9px;
+        max-width: 95vw;
+        height: auto;
+        margin: 0 auto;
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #footer {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .login.form.notice{
+        margin-block-start: inherit;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #banner {
+        background-position: top 0px center;
+        background-color: #F6F6F6;
+    }
+    h1.title{
+        font-size: 32px !important;
+    }
+    .btn{
+        padding-left:6px;
+        padding-right:6px;
+    }        
+}
+
+@media screen and (max-width: 360px){
+    /*名單匯入*/
+    .csv-download{
+        text-align: center !important;
+    }
+    .mt-50{
+        margin-top: 20px;
+    }
+    #input-csv h1{
+        font-size: 28px;
+    }
+    .btn-mar button{
+        font-size: 25px;
+    }
+    /* 明細 */
+    .card-header .fz24 {
+        font-size: 20px;
+    }
+    #paylist,#paylist p {
+        font-size: 16px;
+    }
+    #paylist h6{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 359px){
+    .btnfont-30,.btn-loginfont, .btn-loginfont2, .btn-green2{
+        font-size: 24px;
+    }
+    /* 房客租屋中心*/
+    #room_center li i,
+    #room_center li span{
+        font-size: 18px;
+    }
+}
