@@ -42,7 +42,7 @@ class AdminController extends Controller
             return back()->withErrors(['error' => '帳號或密碼不正確']);
         }
     }
-    public function login_out() {   //帳號登出
+    public function login_out() {   // 帳號登出
         Auth::logout();
         session()->forget(['admin_user']);
         return redirect()->intended('/');
